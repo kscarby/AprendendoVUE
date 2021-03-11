@@ -1,21 +1,27 @@
 <template>
   <div id="app">
-    <TesteFor />
+    <TesteIf/>
+    <TesteFor/>
+    <TesteEvento/>
   </div>
 </template>
 
 <script>
+import TesteIf from './components/TesteIf.vue';
+import TesteEvento from './components/TesteEvento.vue';
 import TesteFor from "./components/TesteFor.vue";
 
 export default {
   name: "App",
   components: {
-    TesteFor,
+    TesteIf,
+    TesteFor,TesteEvento,
   },
 };
 </script>
 
-<style>
+
+    TesteEvento<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
