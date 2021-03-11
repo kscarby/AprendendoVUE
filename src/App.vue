@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <TesteIf/>
+    <TesteFor />
   </div>
 </template>
 
 <script>
-import TesteIf from './components/TesteIf.vue'
+import TesteFor from "./components/TesteFor.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    TesteIf,
-  }
-}
+    TesteFor,
+  },
+};
 </script>
 
 <style>
