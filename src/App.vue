@@ -1,21 +1,25 @@
 <template>
   <div id="app">
-    <TesteIf/>
-    <TesteFor/>
-    <TesteEvento/>
+    <TesteIf />
+    <TesteFor />
+    <TesteEvento />
+    <SitesFavoritos />
   </div>
 </template>
 
 <script>
-import TesteIf from './components/TesteIf.vue';
-import TesteEvento from './components/TesteEvento.vue';
+import TesteIf from "./components/TesteIf.vue";
+import TesteEvento from "./components/TesteEvento.vue";
 import TesteFor from "./components/TesteFor.vue";
+import SitesFavoritos from "./components/SitesFavoritos";
 
 export default {
   name: "App",
   components: {
     TesteIf,
-    TesteFor,TesteEvento,
+    SitesFavoritos,
+    TesteFor,
+    TesteEvento,
   },
 };
 </script>
