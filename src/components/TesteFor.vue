@@ -44,4 +44,7 @@ ul {
 li {
     list-style: none;
 }
+img {
+    width: 300px;
+}
 </style>

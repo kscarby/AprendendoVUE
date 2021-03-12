@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <MeuContador />
     <TesteIf />
     <TesteFor />
     <TesteEvento />
@@ -8,14 +9,16 @@
 </template>
 
 <script>
-import TesteIf from "./components/TesteIf.vue";
-import TesteEvento from "./components/TesteEvento.vue";
-import TesteFor from "./components/TesteFor.vue";
+import MeuContador from "./components/MeuContador"
+import TesteIf from "./components/TesteIf";
+import TesteEvento from "./components/TesteEvento";
+import TesteFor from "./components/TesteFor";
 import SitesFavoritos from "./components/SitesFavoritos";
 
 export default {
   name: "App",
   components: {
+    MeuContador,
     TesteIf,
     SitesFavoritos,
     TesteFor,
